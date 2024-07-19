@@ -15,25 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\echo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\gridgen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\input.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\mymain.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="case1.txt">
       <Filter>Resource Files</Filter>
     </Text>
@@ -43,5 +24,24 @@
     <Text Include="case3.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="echo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mymain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gridgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

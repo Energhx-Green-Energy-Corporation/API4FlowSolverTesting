@@ -127,18 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\echo.h" />
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\gridgen.h" />
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\input.h" />
-    <ClInclude Include="..\..\..\..\Downloads\API4FlowSolverTesting-main\mymain.h" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="case1.txt" />
     <Text Include="case2.txt" />
     <Text Include="case3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="echo.h" />
+    <ClInclude Include="gridgen.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="mymain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
